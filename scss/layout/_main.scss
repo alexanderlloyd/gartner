@@ -1,0 +1,25 @@
+body{
+  background: $body-bg-color;
+  font-family: $base-font;
+  line-height:1.5;
+  font-size: $base-font-size;
+  color:$font-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+  max-width: $container-max-width-xl;
+  padding: 1em 0 5em;
+  @media (min-width: $breakpoint-md) {
+    margin: 0 auto;
+    padding: 2em 0;
+  }
+}
+
+.product-list{
+  @media (min-width: $breakpoint-md) {
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
+  }
+}

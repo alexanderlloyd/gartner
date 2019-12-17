@@ -1,0 +1,10 @@
+.page-title{
+  font-size: 18px;
+  color:#111;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 1em;
+  @media (min-width: $breakpoint-md) {
+    margin-bottom: 2em;
+  }
+}

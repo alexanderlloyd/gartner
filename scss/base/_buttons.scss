@@ -1,0 +1,27 @@
+.btn{
+  height:36px;
+  padding:0 1em;
+  border-radius: 12em;
+  color:#fff;
+  line-height: 36px;
+  text-align: center;
+  display: inline-block;
+  background:$primary-color;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid $primary-color;
+  min-width: 120px;
+  @media (min-width: $breakpoint-md) {
+    &:hover{
+      background:#fff;
+      color:$primary-color;
+    }
+  }
+}
+
+.btn--inverse{
+  border-color:#fff;
+  color: #fff;
+}
